@@ -2,13 +2,13 @@
 pkgname=jamin-git
 _version=0.98.9
 pkgver=0.98.9.r12.199091a
-pkgrel=1
+pkgrel=2
 epoch=
 pkgdesc="A JACK Audio Connection Kit Audio Mastering Interface"
 arch=('i686' 'x86_64')
 url="http://jamin.sourceforge.net/en/about.html"
 license=('GPLv2')
-depends=('jack' 'fftw' 'libxml2' 'gtk3' 'swh-plugins')
+depends=('jack' 'fftw' 'libxml2' 'gtk3' 'swh-plugins' 'liblo')
 makedepends=('git' 'intltool')
 provides=('jamin')
 conflicts=('jamin' 'jamin-cvs')
